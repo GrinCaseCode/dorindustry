@@ -155,6 +155,8 @@ if ( $(this).scrollTop() > 0 && $btnTop.hasClass("default") ){
 		dots: true,
 		infinite: true,
 		touchThreshold: 1000,
+		autoplay: true,
+  		autoplaySpeed: 5000,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
