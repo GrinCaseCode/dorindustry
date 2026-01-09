@@ -11,7 +11,9 @@
     .image-montazh {
         padding-left: 50px;
     }
-}
+} 
+
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -381,7 +383,6 @@
 
 /*==========  Mobile First Method  ==========*/
 
-
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     .open-search-mobile,
@@ -391,10 +392,6 @@
         display: none !important;
     }
 }
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {}
-@media (min-width: 1600px) {}
 
 /*hovers*/
 @media (hover: hover) {

@@ -900,7 +900,7 @@ form {
 .breadcrumbs li::after {
 	content: "/";
 	margin: 0 6px;
-}
+}  
 .select-custom select {
 	padding: 5px 30px;
 	padding-left: 0;
@@ -1539,43 +1539,6 @@ form {
 	padding-top: 6px;
 	padding-bottom: 4px;
 }
-.page-article {
-	font-size: 16px;
-	padding: 40px 0;
-}
-.page-article ul,
-.page-article p {
-	margin-bottom: 20px;
-}
-.page-article h1 {
-	font-size: 32px;
-	margin-bottom: 10px;
-	line-height: 1.2;
-	text-align: center;
-	font-weight: 500;
-}
-.page-article h2 {
-	font-size: 24px;
-	margin-bottom: 20px;
-	font-weight: 500;
-	line-height: 1.4;
-}
-.page-article h3 {
-	font-size: 22px;
-	margin-bottom: 20px;
-	font-weight: 500;
-	line-height: 1.4;
-}
-.page-article ul li {
-	margin-bottom: 10px;
-	list-style-type: disc;
-}
-.page-article ul {
-	padding-left: 20px;
-}
-.page-article strong {
-	font-weight: 600;
-}
 .modal-block {
 	display: none;
 	background: transparent;
@@ -1698,4 +1661,41 @@ form {
 }
 .checkbox input:checked:before {
 	opacity: 1;
+}
+.page-article {
+	font-size: 16px;
+	padding: 40px 0;
+}
+.page-article ul,
+.page-article p {
+	margin-bottom: 20px;
+}
+.page-article h1 {
+	font-size: 32px;
+	margin-bottom: 10px;
+	line-height: 1.2;
+	text-align: center;
+	font-weight: 500;
+}
+.page-article h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-weight: 500;
+	line-height: 1.4;
+}
+.page-article h3 {
+	font-size: 22px;
+	margin-bottom: 20px;
+	font-weight: 500;
+	line-height: 1.4;
+} 
+.page-article ul li {
+	margin-bottom: 10px;
+	list-style-type: disc;
+}
+.page-article ul {
+	padding-left: 20px;
+}
+.page-article strong { 
+	font-weight: 600;
 }
