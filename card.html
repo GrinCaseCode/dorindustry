@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="libs/animate/animate.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.1" />
+	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<header class="header default">
+			<div class="header__top">
+				<div class="container">
+					<div class="header__wrapper">
+						<ul class="socials-list">
+							<li><a href="https://wa.me/79372527661?text=" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+							<li><a href="https://t.me/+79372527661" target="_blank"><i class="fab fa-telegram"></i></a></li>
+						</ul>
+						<a href="tel:+79372527661" class="phone-main"><i class="fas fa-phone-alt"></i>+7 937 252 76 61</a>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom">
+				<div class="container">
+					<div class="header__wrapper">
+						<div class="btn-menu"><i class="fal fa-bars"></i></div>
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="alt">
+						</a>
+						<nav class="menu">
+							<ul class="menu__list">
+								<li><a href="#">Главная</a></li>
+								<li class="menu__haschild menu__current">
+									<a href="#">Каталог</a>
+									<ul>
+										<li><a href="#">Ограничивающее пешеходное ограждение</a></li>
+										<li><a href="#">Удерживающие пешеходное ограждение</a></li>
+										<li><a href="#">Мостовое перильное ограждение</a></li>
+										<li><a href="#">Переносные ограждения</a></li>
+										<li><a href="#">Газонные ограждения</a></li>
+										<li><a href="#">Барьерные ограждения</a></li>
+										<li><a href="#">Г-образные опоры и знаки</a></li>
+										<li class="menu__haschild">
+											<a href="#">ИДН</a>
+											<ul>
+												<li><a href="#">Композитные ИДН</a></li>
+												<li><a href="#">Резиновые ИДН</a></li>
+												<li><a href="#">Аксессуары</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">О нас</a></li>
+								<li><a href="#">Сертификаты</a></li>
+								<li><a href="#">Монтаж</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</nav>
+						<div class="header__right">
+							<div class="open-search"><i class="far fa-search"></i></div>
+							<a href="#callback" class="btn-main fancybox">Обратный звонок</a>
+						</div>
+						<div class="open-search-mobile"><i class="far fa-search"></i></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="menu-mobile">
+			<div class="search-mobile">
+				<form>
+					<input type="text" placeholder="Поиск">
+					<button class="search-mobile__button"><i class="far fa-search"></i></button>
+				</form>
+			</div>
+			<ul class="tabs-menu">
+				<li class="active"><a href="#">Меню</a></li>
+				<li><a href="#">Категории</a></li>
+			</ul>
+			<div class="tab-container-menu">
+				<div class="tab-pane-menu">
+					<nav class="menu">
+						<ul class="menu__list">
+							<li><a href="#">Главная</a></li>
+							<li class="menu__haschild menu__current">
+								<a href="#">Каталог</a>
+								<i class="far fa-chevron-right"></i>
+								<ul>
+									<li><a href="#">Ограничивающее пешеходное ограждение</a></li>
+									<li><a href="#">Удерживающие пешеходное ограждение</a></li>
+									<li><a href="#">Мостовое перильное ограждение</a></li>
+									<li><a href="#">Переносные ограждения</a></li>
+									<li><a href="#">Газонные ограждения</a></li>
+									<li><a href="#">Барьерные ограждения</a></li>
+									<li><a href="#">Г-образные опоры и знаки</a></li>
+									<li class="menu__haschild">
+										<a href="#">ИДН</a>
+										<i class="far fa-chevron-right"></i>
+										<ul>
+											<li><a href="#">Композитные ИДН</a></li>
+											<li><a href="#">Резиновые ИДН</a></li>
+											<li><a href="#">Аксессуары</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Сертификаты</a></li>
+							<li><a href="#">Монтаж</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="tab-pane-menu">
+					<nav class="menu">
+						<ul class="menu__list">
+							<li><a href="#">Ограничивающее пешеходное ограждение</a></li>
+							<li><a href="#">Удерживающие пешеходное ограждение</a></li>
+							<li><a href="#">Мостовое перильное ограждение</a></li>
+							<li><a href="#">Переносные ограждения</a></li>
+							<li><a href="#">Газонные ограждения</a></li>
+							<li><a href="#">Барьерные ограждения</a></li>
+							<li><a href="#">Г-образные опоры и знаки</a></li>
+							<li><a href="#">ИДН</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<div class="menu-overlay"></div>
+
+		<div class="search-main">
+			<div class="search-main__top">
+				<form>
+					<input type="text" placeholder="Поиск">
+				</form>
+				<div class="search-main__close"><i class="fal fa-times"></i></div>
+			</div>
+			<div class="search-main__info">Начните вводить текст, чтобы увидеть товары, которые вы ищете.</div>
+		</div>
+
+		<section class="page-card">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="images-card">
+							<div class="images-card__unit">
+								<div class="image-card">
+									<img src="img/card1.jpg" alt="alt">
+								</div>
+								<a href="https://youtu.be/668nUCeBHyY?si=lyzyAf1uDVUtjrE9" class="video-card fancybox"><i class="far fa-play"></i></a>
+							</div>
+							<div class="images-card__unit">
+								<div class="image-card">
+									<img src="img/card2.jpg" alt="alt">
+								</div>
+							</div>
+							<div class="additional-gallery">
+								<a href="#" class="item-additional item-additional_zoom">
+									<i class="far fa-expand-arrows"></i>
+									<span>Увеличить</span>
+								</a>
+							</div>
+							<div class="full-gallery-popup">
+								<a href="img/card1.jpg" class="fancybox" data-fancybox="card">
+									<img src="img/card1.jpg" alt="alt">
+								</a>
+								<a href="img/card2.jpg" class="fancybox" data-fancybox="card">
+									<img src="img/card2.jpg" alt="alt">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="card-head">
+							<ul class="breadcrumbs">
+								<li><a href="#">Главная</a></li>
+								<li><a href="#">Ограничивающее пешеходное ограждение </a></li>
+							</ul>
+							<div class="nav-card">
+								<div class="nav-card__item">
+									<a href="#" class="nav-card__link"><i class="fal fa-chevron-left"></i></a>
+									<a href="#" class="nav-card__product">
+										<span class="nav-card__image">
+											<img src="img/card1.jpg" alt="alt">
+										</span>
+										<span class="nav-card__content">
+											<span class="nav-card__title">Ограждение УПО-Д-3 тип "Крест"</span>
+										</span>
+									</a>
+								</div>
+								<div class="nav-card__item">
+									<a href="#" class="nav-card__link"><i class="fal fa-th-large"></i></a>
+								</div>
+								<div class="nav-card__item">
+									<a href="#" class="nav-card__link"><i class="fal fa-chevron-right"></i></a>
+									<a href="#" class="nav-card__product">
+										<span class="nav-card__image">
+											<img src="img/card1.jpg" alt="alt">
+										</span>
+										<span class="nav-card__content">
+											<span class="nav-card__title">Ограждение УПО-Д-3 тип "Крест"</span>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<h1 class="title-card">Ограждение ОПО-Д-1 тип Крест</h1>
+						<div class="card-prices">
+							<div class="price-main">900 ₽</div>
+						</div>
+						<div class="table-main">
+							<table>
+								<thead>
+									<tr>
+										<th>Наименование продукции</th>
+										<th>Кол-во</th>
+										<th>Цена в руб., с НДС</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Секция ОПО-Д-1 тип Крест (1940х750мм) г/ц</td>
+										<td>1 шт.</td>
+										<td>2670,00</td>
+									</tr>
+									<tr>
+										<td>Стойка ОПО-Д-1 (60х60х2мм) г/ц</td>
+										<td>1 шт.</td>
+										<td>1200, 00</td>
+									</tr>
+									<tr>
+										<td>Стойка ОПО-Д-1 (60х60х3мм) г/ц</td>
+										<td>1 шт.</td>
+										<td>1750, 00</td>
+									</tr>
+									<tr>
+										<td>Болт М10*120, гайка, шайба, заглушка пластиковая ( 1 участок )</td>
+										<td>1 ком.</td>
+										<td>100, 00</td>
+									</tr>
+									<tr>
+										<td><span class="td-metr">Цена за 1 метр</span></td>
+										<td></td>
+										<td>1935,00 Стойка (60х60х2мм)</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td></td>
+										<td>2210,00 Стойка (60х60х3мм)</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="card-actions">
+							<a href="#modal-order" class="btn-main btn-main--card fancybox">Заказать</a>
+						</div>
+						<div class="accordions">
+							<div class="item-accordion active">
+								<div class="item-accordion__head">Описание <i class="fal fa-chevron-down"></i></div>
+								<div class="item-accordion__content" style="display: block;">
+									<div class="item-accordion__inner">
+										<p>Оцинкованные пешеходные ограждения типа «Крест» всегда в наличии на складе! Такое пешеходное ограждение, как УПО-Д3 типа «Крест» является, самым распространенным в основном в регионах России.</p>
+										<ul>
+											<li>Преимущества наших пешеходных ограждения типа «Крест»:</li>
+											<li>Контроль качества продукции на всех этапах производства.</li>
+											<li>Заводское горячее цинкование по ГОСТ 9.307-2021.</li>
+											<li>Всегда в наличии на складе!</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="item-accordion">
+								<div class="item-accordion__head">Характеристики <i class="fal fa-chevron-down"></i></div>
+								<div class="item-accordion__content">
+									<div class="item-accordion__inner">
+										<div class="features">
+											<div class="features__item">
+												<div class="features__label">Шаг стоек</div>
+												<div class="features__value">2 м</div>
+											</div>
+											<div class="features__item">
+												<div class="features__label">Длина секции</div>
+												<div class="features__value">1,94 м</div>
+											</div>
+											<div class="features__item">
+												<div class="features__label">Высота секции</div>
+												<div class="features__value">0,75 м</div>
+											</div>
+											<div class="features__item">
+												<div class="features__label">Высота стойки</div>
+												<div class="features__value">1,5 м</div>
+											</div>
+											<div class="features__item">
+												<div class="features__label">Масса ограждения 60х60х2</div>
+												<div class="features__value">17,8 кг*</div>
+											</div>
+											<div class="features__item">
+												<div class="features__label">Масса ограждения 60х60х3</div>
+												<div class="features__value">20,2 кг*</div>
+											</div>
+											<div class="features__item">
+												<div class="features__label">Материалы металл</div>
+												<div class="features__value">труба 40х25 / труба 20х20 / лист 2мм</div>
+											</div>
+											<div class="features__item">
+												<div class="features__label">Масса ограждения 60х60х3</div>
+												<div class="features__value">20,2 кг*</div>
+											</div>
+											<div class="features__item">
+												<div class="features__label">Защитно-декоративное покрытие</div>
+												<div class="features__value">горячее цинкование</div>
+											</div>
+											<div class="features__item">
+												<div class="features__label">Соответствует</div>
+												<div class="features__value">ГОСТ 9.307-2021, ГОСТ 14771-76</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card-posted"><strong>Категория:</strong> <a href="#">Ограничивающее пешеходное ограждение</a></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="related">
+			<div class="container">
+				<h2 class="title-section">Вам может понравиться:</h2>
+				<div class="row row--main">
+					<div class="col-lg-3 col-md-6">
+						<div class="item-catalog">
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+								<span class="item-catalog__image-hover">
+									<img src="img/catalog1_hover.jpg" alt="alt">
+								</span>
+							</a>
+							<a href="#" class="item-catalog__title">Ограждение ОПО-Д-1 тип Крест</a>
+							<div class="item-catalog__text">Ограничивающее пешеходное ограждение</div>
+							<a href="#" class="btn-main">
+								<span class="btn-main__text">Подробнее</span>
+								<span class="btn-main__icon"><i class="far fa-shopping-cart"></i></span>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="item-catalog">
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+								<span class="item-catalog__image-hover">
+									<img src="img/catalog1_hover.jpg" alt="alt">
+								</span>
+							</a>
+							<a href="#" class="item-catalog__title">Ограждение ОПО-Д-1 тип Крест</a>
+							<div class="item-catalog__text">Ограничивающее пешеходное ограждение</div>
+							<a href="#" class="btn-main">
+								<span class="btn-main__text">Подробнее</span>
+								<span class="btn-main__icon"><i class="far fa-shopping-cart"></i></span>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="item-catalog">
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+								<span class="item-catalog__image-hover">
+									<img src="img/catalog1_hover.jpg" alt="alt">
+								</span>
+							</a>
+							<a href="#" class="item-catalog__title">Ограждение ОПО-Д-1 тип Крест</a>
+							<div class="item-catalog__text">Ограничивающее пешеходное ограждение</div>
+							<a href="#" class="btn-main">
+								<span class="btn-main__text">Подробнее</span>
+								<span class="btn-main__icon"><i class="far fa-shopping-cart"></i></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper fadeIn wow" data-wow-iteration="1" data-wow-delay="0.3s">
+					<div class="footer__column">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="alt">
+						</a>
+						<div class="copyright">Copyright © 2025 ДОР ИНДУСТРИЯ</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__title">Меню</div>
+						<ul class="footer__nav">
+							<li><a href="#">Главная</a></li>
+							<li><a href="#">Каталог</a></li>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Сертификаты</a></li>
+							<li><a href="#">Монтаж</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<div class="footer__title">Каталог</div>
+						<ul class="footer__nav">
+							<li><a href="#">Ограничивающее пешеходное ограждение</a></li>
+							<li><a href="#">Удерживающие пешеходное ограждение</a></li>
+							<li><a href="#">Мостовое перильное ограждение</a></li>
+							<li><a href="#">Переносные ограждения</a></li>
+							<li><a href="#">Газонные ограждения</a></li>
+							<li><a href="#">Барьерные ограждения</a></li>
+							<li><a href="#">Г-образные опоры и знаки</a></li>
+							<li><a href="#">ИДН</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<div class="footer__title">Контакты</div>
+						<a href="tel:+79372527661" class="footer__contact">
+							<i class="fas fa-phone-alt"></i>
+							<span>+7 937 252 76 61</span>
+						</a>
+						<a href="mailto:zakaz@dorindustry.ru" class="footer__contact">
+							<i class="fal fa-envelope"></i>
+							<span>zakaz@dorindustry.ru</span>
+						</a>
+						<a href="https://t.me/+79372527661" class="footer__contact">
+							<i class="fab fa-telegram"></i>
+							<span>Telegram</span>
+						</a>
+						<a href="https://wa.me/79372527661?text=" class="footer__contact">
+							<i class="fab fa-whatsapp"></i>
+							<span>WhatsApp</span>
+						</a>
+					</div>
+					<div class="footer__column">
+						<div class="footer__title">Связаться с нами</div>
+						<form>
+							<div class="item-form">
+								<input type="tel" placeholder="Введите ваш номер телефона" class="input-phone" inputmode="numeric" required>
+							</div>
+							<input type="submit" value="Отправить" class="btn-main">
+							<div class="agree-form">Нажимая кнопку «отправить», я соглашаюсь на обработку моих персональных данных и ознакомлен с <a href="#">условиями конфиденциальности</a></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<div class="btn-top default"><i class="fal fa-chevron-up"></i></div>
+		
+	</div>
+
+	<div id="callback" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-modal">Заполните форму ниже и наш менеджер свяжется с Вами!</div>
+			<form>
+				<div class="item-form">
+					<input type="text" placeholder="Ваше имя" required>
+				</div>
+				<div class="item-form">
+					<input type="tel" placeholder="Ваш номер телефона" class="input-phone" inputmode="numeric" required>
+				</div>
+				<div class="item-form">
+					<input type="email" placeholder="Ваш Email" inputmode="email" required>
+				</div>
+				<input type="submit" class="btn-main" value="Отправить">
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-order" class="modal-block">
+		<div class="modal-order">
+			<div class="modal-order__title">Ограждение ОПО-Д-3</div>
+			<div class="modal-order__grid">
+				<div class="modal-order__column">
+					<div class="modal-order__image">
+						<img src="img/card1.jpg" alt="alt">
+					</div>
+				</div>
+				<div class="modal-order__column">
+					<form>
+						<div class="item-form item-form--page">
+							<div class="item-form__title">Ваше имя</div>
+							<input type="text" required>
+						</div>
+						<div class="item-form item-form--page">
+							<div class="item-form__title">Ваш телефон</div>
+							<input type="tel" class="input-phone" inputmode="numeric" required>
+						</div>
+						<div class="item-form item-form--page">
+							<div class="item-form__title">Ваш e-mail</div>
+							<input type="email" inputmode="email" required>
+						</div>
+						<input type="submit" class="btn-main" value="Отправить" disabled>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" required checked />
+								<span>Я даю согласие на обработку моих персональных данных ООО «ДОРИНДУСТРИЯ» (ИНН: 6453160042) в целях обработки заявки и обратной связи. Политика конфиденциальности — <a href="#">по ссылке</a></span>
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" required checked />
+								<span>Я согласен получать рекламные и информационные материалы от ООО «ДОРИНДУСТРИЯ» на указанный email.</span>
+							</label>
+						</div>
+						<div class="descr-form">“Вы можете отозвать своё согласие, написав на почту zakaz@dorindustry.ru”</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+	<script src="libs/fancybox-master/dist/jquery.fancybox.min.js"></script>
+	<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+	<script src="libs/animate/wow.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/mask/jquery.maskedinput.js"></script>
+	<script src="libs/jquery-zoom/jquery.zoom.min.js"></script>
+	<script src="js/common.js?ver=1.1"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

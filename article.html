@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="libs/animate/animate.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.1" />
+	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+</head>
+<body> 
+
+	<div class="wrapper">
+ 
+		<header class="header default">
+			<div class="header__top">
+				<div class="container"> 
+					<div class="header__wrapper">
+						<ul class="socials-list">
+							<li><a href="https://wa.me/79372527661?text=" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+							<li><a href="https://t.me/+79372527661" target="_blank"><i class="fab fa-telegram"></i></a></li>
+						</ul>
+						<a href="tel:+79372527661" class="phone-main"><i class="fas fa-phone-alt"></i>+7 937 252 76 61</a>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom">
+				<div class="container">
+					<div class="header__wrapper">
+						<div class="btn-menu"><i class="fal fa-bars"></i></div>
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="alt">
+						</a>
+						<nav class="menu">
+							<ul class="menu__list">
+								<li><a href="#">Главная</a></li>
+								<li class="menu__haschild">
+									<a href="#">Каталог</a>
+									<ul>
+										<li><a href="#">Ограничивающее пешеходное ограждение</a></li>
+										<li><a href="#">Удерживающие пешеходное ограждение</a></li>
+										<li><a href="#">Мостовое перильное ограждение</a></li>
+										<li><a href="#">Переносные ограждения</a></li>
+										<li><a href="#">Газонные ограждения</a></li>
+										<li><a href="#">Барьерные ограждения</a></li>
+										<li><a href="#">Г-образные опоры и знаки</a></li>
+										<li class="menu__haschild">
+											<a href="#">ИДН</a>
+											<ul>
+												<li><a href="#">Композитные ИДН</a></li>
+												<li><a href="#">Резиновые ИДН</a></li>
+												<li><a href="#">Аксессуары</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">О нас</a></li>
+								<li><a href="#">Сертификаты</a></li>
+								<li><a href="#">Монтаж</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</nav>
+						<div class="header__right">
+							<div class="open-search"><i class="far fa-search"></i></div>
+							<a href="#callback" class="btn-main fancybox">Обратный звонок</a>
+						</div>
+						<div class="open-search-mobile"><i class="far fa-search"></i></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="menu-mobile">
+			<div class="search-mobile">
+				<form>
+					<input type="text" placeholder="Поиск">
+					<button class="search-mobile__button"><i class="far fa-search"></i></button>
+				</form>
+			</div>
+			<ul class="tabs-menu">
+				<li class="active"><a href="#">Меню</a></li>
+				<li><a href="#">Категории</a></li>
+			</ul>
+			<div class="tab-container-menu">
+				<div class="tab-pane-menu">
+					<nav class="menu">
+						<ul class="menu__list">
+							<li><a href="#">Главная</a></li>
+							<li class="menu__haschild">
+								<a href="#">Каталог</a>
+								<i class="far fa-chevron-right"></i>
+								<ul>
+									<li><a href="#">Ограничивающее пешеходное ограждение</a></li>
+									<li><a href="#">Удерживающие пешеходное ограждение</a></li>
+									<li><a href="#">Мостовое перильное ограждение</a></li>
+									<li><a href="#">Переносные ограждения</a></li>
+									<li><a href="#">Газонные ограждения</a></li>
+									<li><a href="#">Барьерные ограждения</a></li>
+									<li><a href="#">Г-образные опоры и знаки</a></li>
+									<li class="menu__haschild">
+										<a href="#">ИДН</a>
+										<i class="far fa-chevron-right"></i>
+										<ul>
+											<li><a href="#">Композитные ИДН</a></li>
+											<li><a href="#">Резиновые ИДН</a></li>
+											<li><a href="#">Аксессуары</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Сертификаты</a></li>
+							<li><a href="#">Монтаж</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="tab-pane-menu">
+					<nav class="menu">
+						<ul class="menu__list">
+							<li><a href="#">Ограничивающее пешеходное ограждение</a></li>
+							<li><a href="#">Удерживающие пешеходное ограждение</a></li>
+							<li><a href="#">Мостовое перильное ограждение</a></li>
+							<li><a href="#">Переносные ограждения</a></li>
+							<li><a href="#">Газонные ограждения</a></li>
+							<li><a href="#">Барьерные ограждения</a></li>
+							<li><a href="#">Г-образные опоры и знаки</a></li>
+							<li><a href="#">ИДН</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<div class="menu-overlay"></div>
+
+		<div class="search-main">
+			<div class="search-main__top">
+				<form>
+					<input type="text" placeholder="Поиск">
+				</form>
+				<div class="search-main__close"><i class="fal fa-times"></i></div>
+			</div>
+			<div class="search-main__info">Начните вводить текст, чтобы увидеть товары, которые вы ищете.</div>
+		</div>
+
+		<section class="page-article">
+			<div class="container fadeIn wow" data-wow-iteration="1" data-wow-delay="0.3s">
+				<h1>О компании «Дориндустрия»: путь фабрики дорожных ограждений с 2019 года</h1>
+				<div class="entry-article">
+					<div class="post-date">
+						<div class="post-date__day">05</div>
+						<div class="post-date__month">Ноя</div>
+					</div>
+					<img src="img/article.jpg" alt="alt">
+				</div>
+				<h2>Наш путь и ценности</h2>
+				<p>Основанная в 2019 году, «Дориндустрия» быстро стала надежным поставщиком решений для безопасности на дорогах. Мы растём благодаря трём принципам:</p>
+				<ul>
+					<li><strong>Надёжность</strong> — точное соблюдение норм и сроков.</li>
+					<li><strong>Производственная дисциплина</strong> — полный цикл в наших цехах.</li>
+					<li><strong>Открытость</strong> — прозрачные сметы и постпроектное сопровождение.</li>
+				</ul>
+				<h2>Чем мы занимаемся</h2>
+				<h3>Типовые ограждения</h3>
+				<ul>
+					<li>Барьерные и пешеходные ограждения</li>
+					<li>Ограждения для мостов, развязок, парковочных зон</li>
+					<li>Опоры, стойки, крепёжные элементы</li>
+				</ul>
+				<h3>Индивидуальные металлоконструкции</h3>
+				<ul>
+					<li>Изделия по чертежам заказчика</li>
+					<li>Проектирование и конструкторская проработка</li>
+					<li>Серии малых и средних тиражей</li>
+				</ul>
+				<h3>Монтаж и сервис</h3>
+				<ul>
+					<li>Доставка на объект</li>
+					<li>Монтаж, сварка, крепёж</li>
+					<li>Гарантийное и внеплановое обслуживание</li>
+				</ul>
+				<h2>Команда и производственная культура</h2>
+				<p>Мы объединяем инженеров-конструкторов, технологов, сварщиков и монтажников. Внутренние регламенты по качеству и безопасности сокращают брак и повышают срок службы изделий.</p>
+				<h2>Контроль качества и соответствие</h2>
+				<ul>
+					<li>Входной контроль металлопроката и расходников</li>
+					<li>Маршрутные карты изготовления</li>
+					<li>Финальная проверка геометрии и швов</li>
+					<li>Документация для приёмки у подрядчиков/заказчика</li>
+				</ul>
+				<h2>FAQ</h2>
+				<p><strong>Какие сроки изготовления?</strong> <br>Зависят от объёма и типа изделия: типовые позиции — быстрее, индивидуальные — после согласования КД.</p>
+				<p><strong>Работаете ли по спецификациям заказчика?</strong> <br> Да. При необходимости поможем доработать чертежи.</p>
+				<p><strong>Есть ли доставка и монтаж?</strong> <br>Да, выполняем логистику и монтаж «под ключ».</p>
+				<h2>Призыв к действию</h2>
+				<p>Нужны дорожные или пешеходные ограждения? Свяжитесь с нами для расчёта и сроков — подготовим предложение в течение одного рабочего дня.</p>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper fadeIn wow" data-wow-iteration="1" data-wow-delay="0.3s">
+					<div class="footer__column">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="alt">
+						</a>
+						<div class="copyright">Copyright © 2025 ДОР ИНДУСТРИЯ</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__title">Меню</div>
+						<ul class="footer__nav">
+							<li><a href="#">Главная</a></li>
+							<li><a href="#">Каталог</a></li>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Сертификаты</a></li>
+							<li><a href="#">Монтаж</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<div class="footer__title">Каталог</div>
+						<ul class="footer__nav">
+							<li><a href="#">Ограничивающее пешеходное ограждение</a></li>
+							<li><a href="#">Удерживающие пешеходное ограждение</a></li>
+							<li><a href="#">Мостовое перильное ограждение</a></li>
+							<li><a href="#">Переносные ограждения</a></li>
+							<li><a href="#">Газонные ограждения</a></li>
+							<li><a href="#">Барьерные ограждения</a></li>
+							<li><a href="#">Г-образные опоры и знаки</a></li>
+							<li><a href="#">ИДН</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<div class="footer__title">Контакты</div>
+						<a href="tel:+79372527661" class="footer__contact">
+							<i class="fas fa-phone-alt"></i>
+							<span>+7 937 252 76 61</span>
+						</a>
+						<a href="mailto:zakaz@dorindustry.ru" class="footer__contact">
+							<i class="fal fa-envelope"></i>
+							<span>zakaz@dorindustry.ru</span>
+						</a>
+						<a href="https://t.me/+79372527661" class="footer__contact">
+							<i class="fab fa-telegram"></i>
+							<span>Telegram</span>
+						</a>
+						<a href="https://wa.me/79372527661?text=" class="footer__contact">
+							<i class="fab fa-whatsapp"></i>
+							<span>WhatsApp</span>
+						</a>
+					</div>
+					<div class="footer__column">
+						<div class="footer__title">Связаться с нами</div>
+						<form>
+							<div class="item-form">
+								<input type="tel" placeholder="Введите ваш номер телефона" class="input-phone" inputmode="numeric" required>
+							</div>
+							<input type="submit" value="Отправить" class="btn-main">
+							<div class="agree-form">Нажимая кнопку «отправить», я соглашаюсь на обработку моих персональных данных и ознакомлен с <a href="#">условиями конфиденциальности</a></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<div class="btn-top default"><i class="fal fa-chevron-up"></i></div>
+		
+	</div>
+
+	<div id="callback" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-modal">Заполните форму ниже и наш менеджер свяжется с Вами!</div>
+			<form>
+				<div class="item-form">
+					<input type="text" placeholder="Ваше имя" required>
+				</div>
+				<div class="item-form">
+					<input type="tel" placeholder="Ваш номер телефона" class="input-phone" inputmode="numeric" required>
+				</div>
+				<div class="item-form">
+					<input type="email" placeholder="Ваш Email" inputmode="email" required>
+				</div>
+				<input type="submit" class="btn-main" value="Отправить">
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-order" class="modal-block">
+		<div class="modal-order">
+			<div class="modal-order__title">Ограждение ОПО-Д-3</div>
+			<div class="modal-order__grid">
+				<div class="modal-order__column">
+					<div class="modal-order__image">
+						<img src="img/card1.jpg" alt="alt">
+					</div>
+				</div>
+				<div class="modal-order__column">
+					<form>
+						<div class="item-form item-form--page">
+							<div class="item-form__title">Ваше имя</div>
+							<input type="text" required>
+						</div>
+						<div class="item-form item-form--page">
+							<div class="item-form__title">Ваш телефон</div>
+							<input type="tel" class="input-phone" inputmode="numeric" required>
+						</div>
+						<div class="item-form item-form--page">
+							<div class="item-form__title">Ваш e-mail</div>
+							<input type="email" inputmode="email" required>
+						</div>
+						<input type="submit" class="btn-main" value="Отправить" disabled>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" required checked />
+								<span>Я даю согласие на обработку моих персональных данных ООО «ДОРИНДУСТРИЯ» (ИНН: 6453160042) в целях обработки заявки и обратной связи. Политика конфиденциальности — <a href="#">по ссылке</a></span>
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" required checked />
+								<span>Я согласен получать рекламные и информационные материалы от ООО «ДОРИНДУСТРИЯ» на указанный email.</span>
+							</label>
+						</div>
+						<div class="descr-form">“Вы можете отозвать своё согласие, написав на почту zakaz@dorindustry.ru”</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+	<script src="libs/fancybox-master/dist/jquery.fancybox.min.js"></script>
+	<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+	<script src="libs/animate/wow.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/mask/jquery.maskedinput.js"></script>
+	<script src="libs/jquery-zoom/jquery.zoom.min.js"></script>
+	<script src="js/common.js?ver=1.1"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
